@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionTag</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <img src="/logo.png" alt="Logo">
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Upload Your Image</h2>
+            <form id="upload-form">
+                <input type="file" id="image-upload" accept="image/*">
+                <button type="submit">Upload</button>
+            </form>
+            <div id="image-display" class="image-display">
+                <!-- Display uploaded images and tags here -->
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <h2>Gallery</h2>
+            <input type="text" id="search-bar" placeholder="Search by tags...">
+            <div id="gallery" class="gallery">
+                <!-- Display all uploaded images here -->
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
