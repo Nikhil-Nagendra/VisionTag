@@ -87,3 +87,32 @@ button:hover {
     padding: 0;
     margin-top: 10px;
 }
+
+.techdev-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1000; /* Ensure link is above other content */
+}
+
+.techdev-link:hover {
+    background-color: #f38761;
+    color: black;
+}
+
+/* Existing CSS styles */
+
+.techdev-image {
+    max-width: 100%; /* Ensures the image does not exceed its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    max-height: 700px; /* Limit maximum height if needed */
+    border: 1px solid #ddd; /* Optional: Add border for aesthetics */
+    border-radius: 4px; /* Optional: Add border radius */
+}
